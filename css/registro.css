@@ -1,0 +1,25 @@
+#contenedor {
+	margin-top: 50px;
+	width: 85%;
+	float:right;
+	margin:auto;
+}
+
+	#contenedor h1 {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+#formulario_registro {
+	width: 50%;
+	margin:auto;
+}
+
+	#formulario_registro input {
+		display:block;
+		margin:auto;
+		padding:15px;
+		width: 30%;
+		margin-top: 10px;
+	}
+	

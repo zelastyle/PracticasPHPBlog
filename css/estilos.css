@@ -1,0 +1,76 @@
+@import 'registro.css';
+
+@font-face {
+	font-family: montserrat;
+    src: url(../font/Montserrat.ttf);
+}
+
+* {
+	margin:0px;
+	padding: 0px;
+	font-family: montserrat;
+	color: black;
+}
+
+body {
+	width: 100%;
+	overflow: hidden;
+}
+
+#menu_bar {
+	position:fixed;
+	width: 15%;
+	height: 100%;
+	background: orange;
+	float: left;
+}
+
+	#menu_bar img {
+		display: block;
+		margin:auto;
+		width: 80%;
+		border-radius:50%;
+		margin-top: 30px;
+	}
+	#menu_bar nav {
+		margin-top: 70px;
+	}
+	#menu_bar nav ul {
+		list-style: none;
+	}
+
+		#menu_bar nav ul li {
+			width: 50%;
+			padding:10px 20px;
+			margin-left: 15%;
+			text-align:center;
+		}
+
+			#menu_bar nav ul li a {
+				text-decoration: none;
+				text-align: center;
+				color:black;
+			}
+
+.error {
+	margin-top:20px;
+	color:red;
+	text-align:center;
+}
+
+
+.mensaje {
+	margin-top:20px;
+	font-weight: bold;
+	text-align:center;
+}
+
+#contenedor span {
+	width: 33%;
+	float:left;
+	margin-left:0.3%;
+}
+
+#contenedor span img {
+	width: 100%;
+}
